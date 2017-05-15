@@ -1,6 +1,6 @@
 'use strict';
 
-var projects = [
+var projectData = [
   {
     title:       'Bus Mall',
     link:        'github.io',

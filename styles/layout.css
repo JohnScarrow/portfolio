@@ -1,8 +1,39 @@
+
+header{
+  background-color: rgba(0, 0, 0, .6);
+
+}
+.site-header{
+  position: fixed;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  top: 0;
+}
+.heading-group-h1{
+  display: block;
+}
+#header-name{
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.main {
+  margin-top: 220px;
+}
 .tab {
   list-style: none;
 }
 @media only screen and (min-width: 600px){
+  header{
+    height: 120px;
+  }
   .tab{
     display: inline;
+    }
+    .main{
+      margin-top: 140px;
     }
   }
