@@ -10,30 +10,23 @@ EMBERS - #B82601 - rgba(184, 38, 1, 1)
 
 
 header{
-  width: 100%;
-  background-color: blue;
-  position: fixed;
-  text-align: center;
-  height: 200px;
-  top: 0;
+  background-color: rgba(0, 0, 0, .6);
+
 }
 .main{
-  /*margin-top: 110px;*/
-}
-img {
-  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 body {
   line-height: 1.5;
   font-size: 100%;
-  color: #B82601;
-  background-color: #062F4F;
+  color: rgba(129, 255, 114, 1);
+  background-color: rgba(184, 38, 1, 1);
 }
 
 a, a:link, a:active {
   text-decoration: none;
-  color: red;
+  color: rgba(76, 127, 229, 1);
 }
 
 a:hover, a:focus {
