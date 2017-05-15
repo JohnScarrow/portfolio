@@ -1,6 +1,41 @@
+/*color scheme
+https://designschool.canva.com/blog/website-color-schemes/
+07. Warm and Bold
+LUSH DIGITAL
+BLACK  - #000000 - rgba(0, 0, 0, 1)
+INK    - #062F4F - rgba(6, 47, 79, 1)
+POSY   - #813772 - rgba(129, 55, 114, 1)
+EMBERS - #B82601 - rgba(184, 38, 1, 1)
+*/
+
+
 header{
   width: 100%;
   background-color: blue;
   position: fixed;
   text-align: center;
+  height: 200px;
+  top: 0;
+}
+.main{
+  /*margin-top: 110px;*/
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 100%;
+  color: #B82601;
+  background-color: #062F4F;
+}
+
+a, a:link, a:active {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover, a:focus {
+  color: white;
 }
