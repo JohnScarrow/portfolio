@@ -30,3 +30,9 @@ var headerNav = function() {
 };
 
 headerNav();
+
+const storeData = function (){
+  localStorage.projectData.JSON.stringify(projectData);
+}
+
+storeData();
