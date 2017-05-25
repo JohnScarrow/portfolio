@@ -1,6 +1,34 @@
+/*color scheme
+https://designschool.canva.com/blog/website-color-schemes/
+11. Cool vs. Warm
+LUSH DIGITAL
+NAVY BLUE   - #18121E - rgba(24, 18, 30, 1)
+GUNMETAL    - #233237 - rgba(35, 50, 55, 1)
+RUSTY RED   - #984B43 - rgba(152, 75, 67, 1)
+WARM YELLOW - #EAC67A - rgba(234, 198, 122, 1)
+*/
+
+
 header{
-  width: 100%;
-  background-color: blue;
-  position: fixed;
-  text-align: center;
+  background-color: rgba(35, 50, 55, 1);
+  color: rgba(234, 198, 122, 1);
+}
+.main{
+  background-color: rgba(35, 50, 55, 1);
+}
+
+body {
+  line-height: 1.5;
+  font-size: 100%;
+  color: rgba(234, 198, 122, 1);
+  background-color: rgba(24, 18, 30, 1);
+}
+
+a, a:link, a:active {
+  text-decoration: none;
+  color: rgba(152, 75, 67, 1);
+}
+
+a:hover, a:focus {
+  color: white;
 }

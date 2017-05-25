@@ -21,3 +21,19 @@ projectData.forEach(function(projectObject) {
 projects.forEach(function(project){
   $('#project').append(project.toHtml())
 });
+
+var headerNav = function() {
+  $('#tabs').on('click', '.tab', function() {
+    $('.tab-content').hide();
+    $('#' + $(this).data('content')).fadeIn();
+  });
+};
+
+headerNav();
+
+const storeData = function (){
+  localStorage.projectData.JSON.stringify(projectData);
+}
+
+storeData();
+
