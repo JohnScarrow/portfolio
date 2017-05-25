@@ -9,24 +9,30 @@
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="icon" type="image/x-icon" href="assets/camaro.ico">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.min.js"></script>
-
+    <script id="project-template" type="text/x-handlebars-template">
+    <article>
+    <h1>{{title}}</h1>
+    <p>{{link}}</p>
+    {{{description}}}
+    </article>
 
     </script>
+
   </head>
   <body>
     <header>
       <h1 id="header-title">John Scarrow</h1>
       <ul id="tabs">
-        <li class="tab" data-content="home"><a href="#" class="fa fa-home"> Home</a></li>
+        <li class="tab" data-content="project"><a href="#" class="fa fa-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="fa fa-user-circle-o"> About</a></li>
         <li class="tab"><a href="https://www.facebook.com/johnascarrow" class="fa fa-facebook" > Facebook</a></li>
         <li class="tab"><a href="http://github.com/JohnScarrow" class="fa fa-github"> GitHub</a></li>
       </ul>
     </header>
-
-    <div id="project"></div>
-    <div id="about"></div>
-
+    <div class="main">
+      <div class="tab-content" id="project">Projects</div>
+      <div class="tab-content" id="about">About</div>
+    </div>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <script src="scripts/project-data.js"></script>
      <script src="scripts/main.js"></script>
