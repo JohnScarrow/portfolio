@@ -21,6 +21,7 @@ projectData.forEach(function(projectObject) {
 projects.forEach(function(project){
   $('#project').append(project.toHtml())
 });
+
 var headerNav = function() {
   $('#tabs').on('click', '.tab', function() {
     $('.tab-content').hide();
@@ -33,5 +34,4 @@ headerNav();
 const storeData = function (){
   localStorage.setItem('projectData', JSON.stringify(projectData));
 }
-
 storeData();
