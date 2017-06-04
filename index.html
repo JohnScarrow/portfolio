@@ -5,8 +5,10 @@
     <title>John Scarrow</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/modules.css">
     <link rel="icon" type="image/x-icon" href="assets/camaro.ico">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.min.js"></script>
     <script id="project-template" type="text/x-handlebars-template">
@@ -21,14 +23,17 @@
   </head>
   <body>
     <header>
-      <h1 id="header-title">John Scarrow</h1>
-      <ul id="tabs">
-        <li class="tab" data-content="project"><a href="#" class="fa fa-home"> Home</a></li>
-        <li class="tab" data-content="about"><a href="#" class="fa fa-user-circle-o"> About</a></li>
-        <li class="tab"><a href="https://www.facebook.com/johnascarrow" class="fa fa-facebook" > Facebook</a></li>
-        <li class="tab"><a href="http://github.com/JohnScarrow" class="fa fa-github"> GitHub</a></li>
-      </ul>
-    </header>
+	<h1 id="header-title">John Scarrow</h1>
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+  <div class="menu">
+  <ul>
+    <a href="#"><li class="tab" data-content="project"><a href="#" class="fa fa-home"> Home</a></li></a>
+    <a href="#"><li class="tab" data-content="about"><a href="#" class="fa fa-user-circle-o"> About</a></li></a>
+    <a href="#"><li class="tab"><a href="https://www.facebook.com/johnascarrow" class="fa fa-facebook" > Facebook</a></li></a>
+    <a href="#"><li class="tab"><a href="http://github.com/JohnScarrow" class="fa fa-github"> GitHub</a></li></a>
+  </ul>
+</div> 
     <div class="main">
       <div class="tab-content" id="project">Projects</div>
       <div class="tab-content" id="about">About</div>
